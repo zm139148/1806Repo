@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加学生记录</title>
+</head>
+<body>
+<a href="add.html">添加</a>&nbsp;|&nbsp;<a href="oper.php">管理</a>
+<hr>
+<form action="save.php" method="post">
+<table>
+	<tr>
+		<td>姓名：</td>
+		<td><input type="text" name='namer'></td>
+	</tr>
+	<tr>
+		<td>年龄：</td>
+		<td><input type="text" name='age'></td>
+	</tr>
+	<tr>
+		<td>性别：</td>
+		<td>
+			<input name='sex' checked='checked' type='radio' value='男'>男&nbsp;
+			<input name='sex' type='radio' value='女'>女
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="submit" value="提交"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
